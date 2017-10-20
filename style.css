@@ -1,0 +1,35 @@
+body{
+	
+	margin: 0px;
+	padding: 0px;
+	font-family:sans-serif;
+	/*Nos asegurmos que la imagen de fondo este centrada 
+	vertical y horizontalmente en todo momento*/
+	background-position: center,center;
+	/* La imagen de fondo no se repite */
+    background-repeat: no-repeat;
+    /* La imagen de fondo se reescala cuando 
+    se cambia el ancho de ventana del navegador */
+    background-size: cover;
+	}
+
+	h1{
+		color:#000;
+		text-align: left;
+	}
+		
+	.container  {
+    /* cualquier altura mayor que el total de sumar la anchura de las img */
+    width:330px;
+ 
+    /* para evitar el margen superior de la primera fila */
+    margin-top:-10px;
+}
+img {
+    width:300px;
+    height:200px;
+    float:left;
+    margin:40px 40px 0 0;
+
+}
+
